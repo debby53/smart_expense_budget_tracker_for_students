@@ -1,7 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smart_expense_tracker">
+<!-- android/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- NO PACKAGE ATTRIBUTE HERE -->
 
-    <!-- Required permissions -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 
@@ -9,7 +9,7 @@
         android:label="Student Expense Tracker"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name= "com.example.smart_expense_budget_tracker_for_students.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
